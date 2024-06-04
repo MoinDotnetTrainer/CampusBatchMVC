@@ -1,0 +1,69 @@
+﻿@model IEnumerable<WebAppAarohi28052024.Models.CurdModel>
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Display</title>
+
+
+</head>
+<body>
+    <p>
+        Logged in person : @HttpContextAccessor.HttpContext.Session.GetString("UserName")
+    </p>
+    <p>
+        Logged in Time : @HttpContextAccessor.HttpContext.Session.GetString("LoginTime")
+    </p>
+
+    <p>
+        @Html.ActionLink("Logout","Logout","Spcurd")
+    </p>
+    @using (Html.BeginForm())
+    {
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>EmailID</th>
+                <th>gender</th>
+                <th>Dob</th>
+                <th>Status</th>
+                <th>
+                    Action
+                </th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th>
+                        @item.name
+                    </th>
+                    <th>
+                        @item.EmailID
+                    </th>
+                    <th>
+                        @item.Gender
+                    </th>
+                    <th>
+                        @item.Dob
+                    </th>
+                    <th>
+                        @item.Status
+
+                    </th>
+                    <th>
+                        @Html.ActionLink("Edit","Edit","spCurd",new {id=item.Id})|
+                        @Html.ActionLink("Delete","Delete","spCurd",new {id=item.Id})
+                    </th>
+                </tr>
+            }
+        </table>
+
+    }
+</body>
+</html>

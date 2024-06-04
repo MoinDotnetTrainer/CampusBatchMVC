@@ -1,0 +1,65 @@
+﻿@using WebAppAarohi28052024.Models
+@model CurdModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Insert</title>
+</head>
+<body>
+
+    @using (Html.BeginForm())
+    {
+        <table>
+            <tr>
+                <th>Name</th>
+                <td>@Html.TextBoxFor(model => model.name)</td>
+            </tr>
+            <tr>
+                <th>EmailID</th>
+                <td>@Html.TextBoxFor(model => model.EmailID)</td>
+            </tr>
+            <tr>
+                <th>Dob</th>
+                <td>@Html.EditorFor(model => model.Dob)</td>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <td>
+
+                    @Html.RadioButtonFor(model => model.Gender, "Male", new { id = "male-true"  })
+                    @Html.Label("male-true", "Male")
+                    @Html.RadioButtonFor(model => model.Gender, "Female", new { id = "female-true"})
+                    @Html.Label("female-true", "Female")
+
+
+                </td>
+            </tr>
+            <tr>
+                <th>Status</th>
+                <td>
+                    @Html.DropDownListFor(model => model.Status, new List<SelectListItem> {
+                new SelectListItem { Text="--Select--",Value="0"},
+                new SelectListItem { Text="Active",Value="true"},
+                new SelectListItem { Text="InActive",Value="false"}
+                }, new { @class = "form-control" })
+
+
+                </td>
+            </tr>
+
+            <tr>
+                <th>
+                    <input type="submit" value="submit" name="submit">
+                </th>
+            </tr>
+        </table>
+
+    }
+</body>
+</html>

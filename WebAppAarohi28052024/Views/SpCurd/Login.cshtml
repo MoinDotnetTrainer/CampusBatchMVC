@@ -1,0 +1,35 @@
+﻿@using WebAppAarohi28052024.Models
+@model LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1>Login</h1>
+
+@using (Html.BeginForm())
+{
+
+    <table>
+        <tr>
+            <th>
+                EmailID
+            </th>
+            <td>
+                @Html.TextBoxFor(model=> model.EmailID)
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Password
+            </th>
+            <td>
+                @Html.TextBoxFor(model=> model.Password)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="submit" name="submit">
+            </td>
+        </tr>
+    </table>
+}

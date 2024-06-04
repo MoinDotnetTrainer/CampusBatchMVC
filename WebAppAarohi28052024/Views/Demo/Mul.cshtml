@@ -1,0 +1,44 @@
+﻿@using WebAppAarohi28052024.Models
+@model MyData
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Mul</title>
+</head>
+<body>
+    @using(Html.BeginForm())
+    {
+        
+        <table>
+            <tr>
+                <th>Enter x:</th>
+                <td>
+                    @Html.TextBoxFor(model => model.x)
+                </td>
+            </tr>
+            <tr>
+                <th>Enter y:</th>
+                <td>
+                    @Html.TextBoxFor(model => model.y)
+                </td>
+            </tr>
+            <tr>
+               
+                    <td>
+                        <input type="submit" value="submit" name="submit">
+                    </td>
+                    
+               <td>
+                   @ViewData["res"]
+               </td>
+            </tr>
+        </table>
+    }
+</body>
+</html>

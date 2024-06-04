@@ -1,0 +1,55 @@
+﻿@model IEnumerable<WebAppAarohi28052024.Models.CurdModel>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Display</title>
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>EmailID</th>
+                <th>gender</th>
+                <th>Dob</th>
+                <th>Status</th>
+                <th>
+Action</th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th>
+                        @item.name
+                    </th>
+                    <th>
+                        @item.EmailID
+                    </th>
+                    <th>
+                        @item.Gender
+                    </th>
+                    <th>
+                        @item.Dob
+                    </th>
+                    <th>
+                        @item.Status
+
+                    </th>
+                    <th>
+                        @Html.ActionLink("Edit","Edit","Curd",new {id=item.Id})|
+                        @Html.ActionLink("Delete","Delete","Curd",new {id=item.Id})
+                    </th>
+                </tr>
+            }
+        </table>
+
+    }
+</body>
+</html>

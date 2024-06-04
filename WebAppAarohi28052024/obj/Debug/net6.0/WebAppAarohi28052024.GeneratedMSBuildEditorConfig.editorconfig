@@ -1,0 +1,97 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebAppAarohi28052024
+build_property.RootNamespace = WebAppAarohi28052024
+build_property.ProjectDir = C:\Users\ADMIN\source\repos\WebAppAarohi28052024\WebAppAarohi28052024\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ADMIN\source\repos\WebAppAarohi28052024\WebAppAarohi28052024
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ADMIN/source/repos/WebAppAarohi28052024/WebAppAarohi28052024/Views/Curd/Display.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VyZFxEaXNwbGF5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/WebAppAarohi28052024/WebAppAarohi28052024/Views/Curd/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VyZFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/WebAppAarohi28052024/WebAppAarohi28052024/Views/Curd/Insert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VyZFxJbnNlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/WebAppAarohi28052024/WebAppAarohi28052024/Views/Demo/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVtb1xBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/WebAppAarohi28052024/WebAppAarohi28052024/Views/Demo/Mul.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVtb1xNdWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/WebAppAarohi28052024/WebAppAarohi28052024/Views/Demo/Sub.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVtb1xTdWIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/WebAppAarohi28052024/WebAppAarohi28052024/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/WebAppAarohi28052024/WebAppAarohi28052024/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/WebAppAarohi28052024/WebAppAarohi28052024/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/WebAppAarohi28052024/WebAppAarohi28052024/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/WebAppAarohi28052024/WebAppAarohi28052024/Views/SpCurd/anotherData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BDdXJkXGFub3RoZXJEYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/WebAppAarohi28052024/WebAppAarohi28052024/Views/SpCurd/anotherData1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BDdXJkXGFub3RoZXJEYXRhMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/WebAppAarohi28052024/WebAppAarohi28052024/Views/SpCurd/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BDdXJkXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/WebAppAarohi28052024/WebAppAarohi28052024/Views/SpCurd/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BDdXJkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/WebAppAarohi28052024/WebAppAarohi28052024/Views/SpCurd/Insert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BDdXJkXEluc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/WebAppAarohi28052024/WebAppAarohi28052024/Views/SpCurd/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BDdXJkXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/WebAppAarohi28052024/WebAppAarohi28052024/Views/SpCurd/StoreData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BDdXJkXFN0b3JlRGF0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/WebAppAarohi28052024/WebAppAarohi28052024/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/WebAppAarohi28052024/WebAppAarohi28052024/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/WebAppAarohi28052024/WebAppAarohi28052024/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-vfvs07gizy
